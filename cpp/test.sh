@@ -17,7 +17,8 @@ try() {
     fi
 }
 
-try 3 1+1+1
+try 41 " 12 + 34 - 5 "
+try 3 "1+1+1"
 try 42 42
 
 echo OK
